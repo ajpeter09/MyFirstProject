@@ -35,7 +35,7 @@ public class ReadingYML {
                     String key = (String) it.next();
                     String value = (String) currentMap.get(key);
 
-                    System.out.println(key + " --- ---  " + value);
+                    System.out.println(key + " ---- ---  " + value);
                 }
             }
 
