@@ -12,7 +12,7 @@ public class ReadingXls {
         String data = xls.getCellData("LoginTest", 3, 4);
         //System.out.println(data);
         //String value = null;
-        System.out.println("**********************************************");
+        System.out.println("***********************************************");
         for (int i = 1; i <= rowCount; i++) {
             System.out.println("------------------------------------------");
             for (int j = 0; j < colCount; j++) {
